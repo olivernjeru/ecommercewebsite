@@ -5,9 +5,9 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework.decorators import api_view
 
-from ecommercewebsite_django import product
-from .models import Category, Product 
-from .serializers import ProductSerializer, CategorySerializer 
+from django_backend import product
+from .models import Category, Product
+from .serializers import ProductSerializer, CategorySerializer
 
 # Create your views here.
 
