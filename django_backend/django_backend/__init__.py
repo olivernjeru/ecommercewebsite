@@ -1,1 +1,1 @@
-from ecommercewebsite_django import product
+from django_backend import product
