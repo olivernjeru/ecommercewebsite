@@ -1,1 +1,0 @@
-from django_backend import product
