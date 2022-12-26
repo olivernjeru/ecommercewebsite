@@ -20,3 +20,31 @@ has a store folder that handles adding and removing items to and from the cart r
 has views that render cart, category, checkout, home, login, myaccount, product, search, signup and success information dynamically
 has app file that loads the animation when opening the app or moving from one step to the next</p>
 
+# E-Commerce Website
+
+* Built using Django and Vue
+* Use Django Rest Framework to build an API in the Backend
+* Use VueJS to build a separate frontend which will connect to the backend using axios
+* Use Stripe to handle payments
+
+
+## Run the app
+### VUE(FRONTEND)
+
+* To run vue, cd into vue_frontend and run the command:
+    ```
+    npm run serve
+    ```
+
+### DJANGO(BACKEND)
+* To run django, activate the environment first by enter the following in a separate comand line or terminal:
+    ```
+    oontztopiaenvironment/Scripts/activate
+    ```
+* After that enter the following command to run the django server:
+    ```
+    python manage.py runserver
+    ```
+
+
+
