@@ -1,10 +1,9 @@
 # Ecommerce Website
 
-<h3>Technologies Used: </h3>
-<p>Python, Django, Vue.js, JavaScript, Bulma, HTML & CSS</p>
+* Built using Django and Vue
+* Use Django Rest Framework to build an API in the Backend
+* Use VueJS to build a separate frontend which will connect to the backend using axios
 
-<h3>New Stuff Learned</h3>
-<p></p>
 <p>Django folder is a python web framework that
 contains django environment pre-loaded files with a few additions to help customize with my application
 contains uploaded media used to display the merchandise on sell
@@ -19,14 +18,6 @@ has router folder that helps in rendering whatever view that is associated with 
 has a store folder that handles adding and removing items to and from the cart respectively
 has views that render cart, category, checkout, home, login, myaccount, product, search, signup and success information dynamically
 has app file that loads the animation when opening the app or moving from one step to the next</p>
-
-# E-Commerce Website
-
-* Built using Django and Vue
-* Use Django Rest Framework to build an API in the Backend
-* Use VueJS to build a separate frontend which will connect to the backend using axios
-* Use Stripe to handle payments
-
 
 ## Run the app
 ### VUE(FRONTEND)
